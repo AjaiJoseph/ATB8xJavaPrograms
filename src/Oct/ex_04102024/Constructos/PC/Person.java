@@ -89,8 +89,8 @@ public class Person {
         System.out.println();
 
         // Object creation using Parameterized Constructor
-        Person person2 = new Person("John Doe", 30, "Male", "MBA", "Software Engineer", "American",
-                "123 Elm Street", "Reading", "9876543210", "johndoe@example.com");
+        Person person2 = new Person("John", 30, "Male", "MBA", "Human resource", "American",
+                "123 Street", "Gaming", "9876543210", "john@example.com");
         person2.displayDetails();  // Displaying customized details
         System.out.println();
 
@@ -101,18 +101,18 @@ public class Person {
         person1.printHobby();  // Prints hobby
 
         // Creating additional objects
-        Person person3 = new Person("Alice Johnson", 28, "Female", "M.Sc", "Scientist", "British",
-                "101 Pine Avenue", "Traveling", "5551234567", "alice@example.com");
+        Person person3 = new Person("Alice ", 28, "Female", "M.Sc", "Scientist", "British",
+                "5th Avenue", "Traveling", "5551234567", "alice@example.com");
         person3.displayDetails();
         System.out.println();
 
-        Person person4 = new Person("Emily White", 35, "Female", "Ph.D", "Professor", "Canadian",
-                "77 King Street", "Painting", "3333333333", "emily@example.com");
+        Person person4 = new Person("Watson", 35, "Female", "Ph.D", "Professor", "Canadian",
+                "1st Street", "Painting", "3333333333", "watson@example.com");
         person4.displayDetails();
         System.out.println();
 
-        Person person5 = new Person("Bob Brown", 45, "Male", "B.Tech", "Engineer", "Australian",
-                "123 Sunset Blvd", "Gardening", "4444444444", "bob@example.com");
+        Person person5 = new Person("Jacob", 45, "Male", "B.Tech", "Engineer", "Australian",
+                "3rd street", "Gardening", "4444444444", "jacob@example.com");
         person5.displayDetails();
         System.out.println();  // Print a blank line
         System.out.println("Created 5 objects");
