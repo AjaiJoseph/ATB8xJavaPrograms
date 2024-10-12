@@ -2,6 +2,8 @@ package Oct.ex_04102024.Constructos.PC;
 
 public class Person {
 
+    // Need to upload the link in the SDET club task comments
+
     //10 Attribute
     String name;
     int age;
@@ -116,6 +118,8 @@ public class Person {
         person5.displayDetails();
         System.out.println();  // Print a blank line
         System.out.println("Created 5 objects");
+
+        // Need to upload the link in the SDET club task comments
     }
 }
 
