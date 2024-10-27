@@ -1,4 +1,4 @@
-package Oct.ex_16102024;
+package Oct.ex_16102024_Static_Keyword;
 
 public enum APIConstantsEndpoints {
     BASE_URL("https://app.vwo.com"),
