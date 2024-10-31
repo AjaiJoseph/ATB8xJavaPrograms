@@ -1,0 +1,48 @@
+package Oct.ex_18102024_String_Wrapper;
+
+public class Lab161_String_Functions {
+    public static void main(String[] args) {
+
+        String str = " Hello World ";
+        // Length of the string
+        System.out.println("Length: " + str.length());
+
+        // Substring
+        System.out.println("Substring: " + str.substring(0, 2));
+
+        // Trim
+        System.out.println("Trimmed: '" + str.trim() + "'"); // Outputs: "'Hello World'"
+
+        // Convert to uppercase
+        System.out.println("Uppercase: " + str.toUpperCase()); // Outputs: " HELLO WORLD "
+        System.out.println("Lowercase: " + str.toLowerCase());
+
+        System.out.println(str.charAt(2));
+
+        System.out.println(str.equals("Hello"));
+        System.out.println(str.indexOf("H"));
+        System.out.println(str.contains("l"));
+        System.out.println(str.contains("p"));
+        System.out.println(str.isEmpty());
+        System.out.println(str.split(" "));
+
+
+
+
+        String name = " A j a i j o s e p h";
+        String name2 = "AjaI";
+        System.out.println(name.compareTo(name2));
+        // CompareTo -> 0 - both of them are same
+        // Return Number -> ASCII value diff - between the Strings
+        // d -> D - lexicographically comparasion
+
+        System.out.println(name.strip());
+
+
+
+
+
+
+
+    }
+}
