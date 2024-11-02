@@ -1,5 +1,4 @@
-package Oct.ex_Wrapper_exception;
-import java.io.FileInputStream;
+package Oct.ex_21102024_Wrapper_exception;
 
 public class Lab171_Exceptions {
     public static void main(String[] args) {

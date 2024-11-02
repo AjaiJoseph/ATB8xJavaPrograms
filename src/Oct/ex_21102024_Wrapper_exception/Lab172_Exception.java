@@ -1,4 +1,4 @@
-package Oct.ex_Wrapper_exception;
+package Oct.ex_21102024_Wrapper_exception;
 
 public class Lab172_Exception {
     public static void main(String[] args) {
